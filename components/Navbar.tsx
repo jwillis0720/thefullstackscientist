@@ -27,9 +27,9 @@ const Navbar = () => {
                     height="100"
                     className="fill-none"
                 />
-                <h2 className="text-green-400 hidden xl:flex">
+                {/* <h2 className="text-green-400 hidden xl:flex">
                     The Fullstack Scientist
-                </h2>
+                </h2> */}
                 <div>
                     <ul className="hidden md:flex">
                         <Link href="/">
@@ -79,7 +79,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className='border-b border-grey-300 mx-4 items-center flex justify-center text-center text-lg font-bold'>
-                            <p> Lets build something together</p>
+                            <p> The Fullstack Scientist </p>
                         </div>
                     </div>
                     <div className='mx-10 mt-10'>
