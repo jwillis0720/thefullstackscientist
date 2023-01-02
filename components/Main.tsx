@@ -3,7 +3,7 @@ import Image from "next/image";
 const Main = () => {
     return (
         <div className="w-full h-screen text-center">
-            <div className='max-w-[1240px] w-full h-full  mx-auto pt-40 flex justify-center items-center'>
+            <div className='max-w-[1240px] w-full h-full  mx-auto pt-[10rem] flex justify-center items-center'>
                 <div>
                     <Image
                         src="logo.svg"
