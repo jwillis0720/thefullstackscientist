@@ -20,16 +20,15 @@ const Navbar = () => {
     return (
         <div className="fixed w-full h-30 shadow-xl z-[100] bg-slate-600">
             <div className="flex justify-between items-center w-full 2xl:px-1">
-                <Image
-                    src="toplogo.svg"
-                    alt="The Fullstack Scientist"
-                    width="100"
-                    height="100"
-                    className="fill-none"
-                />
-                {/* <h2 className="text-green-400 hidden xl:flex">
-                    The Fullstack Scientist
-                </h2> */}
+                <Link href='/'>
+                    <Image
+                        src="toplogo.svg"
+                        alt="The Fullstack Scientist"
+                        width="100"
+                        height="100"
+                        className="cursor-pointer"
+                    />
+                </Link>
                 <div>
                     <ul className="hidden md:flex">
                         <Link href="/">
