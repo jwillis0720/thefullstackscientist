@@ -31,32 +31,32 @@ const Navbar = () => {
                 </Link>
                 <div>
                     <ul className="hidden md:flex">
-                        <Link href="/">
+                        <Link href="#home">
                             <li className="text-slate-200 ml-10 text-md uppercase hover:border-b p-2">
                                 Home
                             </li>
                         </Link>
-                        <Link href="/">
+                        <Link href="#about">
                             <li className="text-slate-200 ml-10 text-md uppercase hover:border-b p-2">
                                 About
                             </li>
                         </Link>
-                        <Link href="/">
+                        <Link href="#skills">
                             <li className="text-slate-200 ml-10 text-md uppercase hover:border-b p-2">
                                 Skills
                             </li>
                         </Link>
-                        <Link href="/">
+                        <Link href="#science">
                             <li className="text-slate-200 ml-10 text-md uppercase hover:border-b p-2">
                                 Science
                             </li>
                         </Link>
-                        <Link href="/">
+                        <Link href="#cv">
                             <li className="text-slate-200 ml-10 text-md uppercase hover:border-b p-2">
                                 CV
                             </li>
                         </Link>
-                        <Link href="/">
+                        <Link href="#contact">
                             <li className="text-slate-200 ml-10 text-md uppercase hover:border-b p-2 mr-10">
                                 Contact
                             </li>
@@ -83,22 +83,22 @@ const Navbar = () => {
                     </div>
                     <div className='mx-10 mt-10'>
                         <ul>
-                            <Link href='/'>
+                            <Link href='#home'>
                                 <li className='py-4 text-lg'>Home</li>
                             </Link>
-                            <Link href='/'>
+                            <Link href='#about'>
                                 <li className='py-4 text-lg'>About</li>
                             </Link>
-                            <Link href='/'>
+                            <Link href='#skills'>
                                 <li className='py-4 text-lg'>Skills</li>
                             </Link>
-                            <Link href='/'>
+                            <Link href='#science'>
                                 <li className='py-4 text-lg'>Science</li>
                             </Link>
-                            <Link href='/'>
+                            <Link href='#cv'>
                                 <li className='py-4 text-lg'>CV</li>
                             </Link>
-                            <Link href='/'>
+                            <Link href='#contact'>
                                 <li className='py-4 text-lg'>Contact</li>
                             </Link>
                         </ul>
