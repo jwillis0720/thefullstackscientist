@@ -1,7 +1,13 @@
 
 import React from 'react'
 import Image from 'next/image'
-function Skill(props) {
+
+interface SkillProps {
+    src: string;
+    name: string;
+}
+
+function Skill(props: SkillProps) {
     return (
         <div className='p-6 shadow-xl rounded-xl hover:scale-105 hover:bg-green-400 ease-in duration-300 bg-slate-600'>
             <div className='grid grid-cols-2 gap-1 justify-center items-center'>
