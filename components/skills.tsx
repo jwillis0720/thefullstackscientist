@@ -8,6 +8,7 @@ import DataScience from '../public/skills/data_science.png'
 import DeepLearning from '../public/skills/deep_learning.png'
 import ProteinDesign from '../public/skills/protein_design.png'
 import AWS from '../public/skills/aws_trans.png'
+import Python from '../public/skills/python.png'
 
 const Skills = () => {
     return (
@@ -25,9 +26,8 @@ const Skills = () => {
                     <Skill src={DeepLearning} name='Deep Learning' />
                     <Skill src={ProteinDesign} name='Protein Design' />
                     <Skill src={AWS} name='AWS' />
-                    <Skill src={MolBio} name='Python' />
-                </div>
-            </div>
+                    <Skill src={Python} name='Python' />
+                </div> </div>
         </div>
     );
 };
