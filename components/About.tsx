@@ -10,27 +10,18 @@ const About = () => {
                         About
                     </p>
                     <h2 className='py-4 text-green-400'>Who I Am</h2>
-                    <p className='py-2 '>
-                        I specialize in building mobile responsive front-end UI applications
-                        that connect with API’s and other backend technologies. I’m
-                        passionate about learning new technologies and understand there is
-                        more than one way to accomplish a task. Though I am most proficient
-                        in building front-end applications using HTML, CSS, Javascript, and
-                        React, I am a quick learner and can pick up new tech stacks as
-                        needed. I believe that being a great developer is not using one
-                        specific language, but choosing the best tool for the job.
+                    <p className='py-2 text-justify'>
+                        In graduate school for life sciences, two paths are generally presented. One, the wet-lab, sometimes called an ‘experimentalist’ is traditionally what you think of when you think of a scientist. You are in a laboratory surrounded by cool equipment conducting experiments like you are on CSI: beakers, fume hoods, chemicals, DNA gels and million dollar machines. The other, the dry-lab, is typically what one thinks of as a computationalist. They spend their time conducting experiments <i>in silico</i>, running calculations to bolster the experimentalist. They are different worlds with their own set of language. In fact, I urge you to spend sometime in a room with a classic wet-lab and dry-lab person trying to communicate their science. Fun stuff.
                     </p>
-                    <p className='py-2 '>
-                        I started web developement in 2013 managing multiple e-commerce
-                        websites on CMS platforms such as WordPress, BigCommerce, and
-                        Shopify. I have experience working directly with clients and taking
-                        mock wireframes all the way to deployed applications. In my spare
-                        time I run Code Commerce, a Youtube channel where I teach web
-                        developement and various front-end technologies.
+                    <p className='py-2 text-justify'>
+                        In 2008, right when I started grad school, machine-learning was just making strides. There was no such thing as Deep learning yet, but there was an incredibly cool concept called 'protein design' where you could have the computer help redesign a protein (say an antibody) to make it a better thereapeutic. I thought that was so cool. But...I didn't want to hand off my designs to some snobby experimentalist. I wanted to learn how to make proteins on my own. Thus began my dual mentorship with a world renowned computationalist and immunologist. I set my career path to insersect those two worlds.
                     </p>
-                    <Link href='/#projects'>
-                        <p className='py-2 text-gray-600 underline cursor-pointer'>
-                            Check out some of my latest projects.
+                    <p className='py-2 text-justify'>
+                        Here I am today. A fullstack scientist. In case you don't know that is, it's a play on the term 'fullstack developer' who a code engineer who can work on both the front end (i.e the pretty websites) and the backend (crunching data to feed the websites). I am a fullstack scientist who can work on both the computational and experimental side of science. I design and build <span className='text-green-400'>vaccines</span> and <span className='text-green-400'>antibody</span> thereapeutics. <span className='text-green-400'>I am a scientist who can compute. I am a computationalist that can do science.</span>
+                    </p>
+                    <Link href='https://scholar.google.com/citations?user=Vxreil0AAAAJ&hl=en'>
+                        <p className='py-2 text-green-400 underline cursor-pointer'>
+                            Check out some of my latest publications.
                         </p>
                     </Link>
                 </div>
