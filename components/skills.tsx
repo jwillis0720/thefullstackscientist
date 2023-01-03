@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react';
 import Skill from './skill'
 import MolBio from '../public/skills/mol_bio.png'
@@ -27,7 +26,15 @@ const Skills = () => {
                     <Skill src={ProteinDesign} name='Protein Design' />
                     <Skill src={AWS} name='AWS' />
                     <Skill src={Python} name='Python' />
-                </div> </div>
+                </div>
+                <div className='grid-cols-1 max-h-[0.5rem] py-4'>
+                    <div className='p-4 min-h-[1rem] shadow-xl rounded-xl hover:scale-105 hover:bg-green-400 ease-in duration-300 bg-slate-600'>
+                        <div className='flex flex-col items-center justify-center align-middle m-auto'>
+                            <h3 className='text-white md:text-2xl text-center'>...And Much More</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
