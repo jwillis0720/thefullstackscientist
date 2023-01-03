@@ -1,9 +1,9 @@
 
 import React from 'react'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
 interface SkillProps {
-    src: string;
+    src: StaticImageData;
     name: string;
 }
 
