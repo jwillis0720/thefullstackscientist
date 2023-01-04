@@ -63,7 +63,7 @@ const Navbar = () => {
                                 Science
                             </li>
                         </Link>
-                        <Link href="#cv">
+                        <Link href='JordanWillisCV.pdf' target='_blank' rel='noreferrer'>
                             <li className="text-slate-200 ml-10 text-md uppercase hover:border-b p-2">
                                 CV
                             </li>
@@ -109,7 +109,8 @@ const Navbar = () => {
                             <Link href='#science'>
                                 <li onClick={() => setNav(false)} className='py-4 text-lg'>Science</li>
                             </Link>
-                            <Link href='#cv'>
+                            <Link href='JordanWillisCV.pdf' target='_blank' rel='noreferrer'>
+                                <li onClick={() => setNav(false)} className='py-4 text-lg'>CV</li>
                             </Link>
                             <Link href='https://www.linkedin.com/in/jwillis0720' target='_blank'>
                                 <li onClick={() => setNav(false)} className='py-4 text-lg'>Contact</li>
