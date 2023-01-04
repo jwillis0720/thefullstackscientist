@@ -8,15 +8,17 @@ import DeepLearning from '../public/skills/deep_learning.png'
 import ProteinDesign from '../public/skills/protein_design.png'
 import AWS from '../public/skills/aws_trans.png'
 import Python from '../public/skills/Python.png'
-
+import Vaccines from '../public/skills/vaccines.png'
+import Antibodies from '../public/skills/antibodies.png'
+import Immunology from '../public/skills/immunology.png'
 const Skills = () => {
     return (
-        <div id='skills' className='w-full lg:h-screen p-2'>
+        <div id='skills' className='w-full lg:h-screen p-1 mt-[10rem]'>
             <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-                <p className='text-xl tracking-widest uppercase text-white'>
+                <p className='text-xl tracking-widest uppercase text-white underline'>
                     Skills
                 </p>
-                <h2 className='py-4'>What I Can Do</h2>
+                <h2 className='py-4 text-green-400'>What I Can Do</h2>
                 <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
                     <Skill src={MolBio} name='Molecular Biology' />
                     <Skill src={SynBio} name='Synthetic Biology' />
@@ -26,11 +28,12 @@ const Skills = () => {
                     <Skill src={ProteinDesign} name='Protein Design' />
                     <Skill src={AWS} name='AWS' />
                     <Skill src={Python} name='Python' />
-                </div>
-                <div className='grid-cols-1 max-h-[0.5rem] py-4'>
+                    <Skill src={Vaccines} name='Vaccines' />
+                    <Skill src={Antibodies} name='Antibodies' />
+                    <Skill src={Immunology} name='Immunology' />
                     <div className='p-4 min-h-[1rem] shadow-xl rounded-xl hover:scale-105 hover:bg-green-400 ease-in duration-300 bg-slate-600'>
                         <div className='flex flex-col items-center justify-center align-middle m-auto'>
-                            <h3 className='text-white md:text-2xl text-center'>...And Much More</h3>
+                            <h3 className='text-white md:text-2xl text-center pt-10'>...And Much More</h3>
                         </div>
                     </div>
                 </div>
