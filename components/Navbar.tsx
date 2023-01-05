@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { SiGooglescholar } from 'react-icons/si';
 
 
 
@@ -116,9 +116,9 @@ const Navbar = () => {
                                 <li onClick={() => setNav(false)} className='py-4 text-lg'>Contact</li>
                             </Link>
                         </ul>
-                        <div className='pt-4'>
+                        <div>
                             <p className='tracking-widest uppercase'>Lets Connect</p>
-                            <div className='flex items-center justify-between my-4 mb-4 w-full sm:w-[80%]'>
+                            <div className='flex items-center justify-between my-2 mb-2 w-full sm:w-[80%]'>
                                 <Link href='https://www.linkedin.com/in/jwillis0720' target='_blank'>
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-3 text-center cursor-pointer hover-scale:105 ease-in  duration-300'>
                                         <FaLinkedin size={30} />
@@ -135,7 +135,8 @@ const Navbar = () => {
                                     </div>
                                 </Link>
                                 <Link href='https://scholar.google.com/citations?user=Vxreil0AAAAJ&hl=en' target='_blank'>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 text-center cursor-pointer hover-scale:105 ease-in  duration-300'> <BsFillPersonLinesFill size={30} />
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 text-center cursor-pointer hover-scale:105 ease-in  duration-300'>
+                                        <SiGooglescholar size={30} />
                                     </div>
                                 </Link>
                             </div>

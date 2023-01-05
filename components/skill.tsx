@@ -15,7 +15,7 @@ function Skill(props: SkillProps) {
                     <Image src={props.src} width='100' height='100' alt='/' />
                 </div>
                 <div className='flex flex-col items-center justify-center align-middle'>
-                    <h3 className='text-white md:text-2xl text-center align-top'>{props.name}</h3>
+                    <h4 className='text-white lg:text-2xl text-center align-top'>{props.name}</h4>
                 </div>
             </div>
         </div>

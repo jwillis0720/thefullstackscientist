@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
+import { AiOutlineMail } from 'react-icons/ai';
+import { SiGooglescholar } from 'react-icons/si';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Link from "next/link";
 const Main = () => {
     return (
@@ -43,7 +43,7 @@ const Main = () => {
                     </a>
                     <Link href='https://scholar.google.com/citations?user=Vxreil0AAAAJ&hl=en' target='_blank'>
                         <div className='rounded-full text-white bg-slate-700 shadow-lg shadow-gray-400 p-3 text-center cursor-pointer hover-scale:105 ease-in  duration-300'>
-                            <BsFillPersonLinesFill size={25} />
+                            <SiGooglescholar size={25} />
                         </div>
                     </Link>
                 </div>
